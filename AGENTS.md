@@ -1,17 +1,19 @@
 # Instructions for Codex: reviewer only
 
-Codex reads this file. In this repository Codex is an independent code reviewer and nothing more, unless Ghulam Mallah explicitly changes that rule.
+Codex reads this file. In this repository Codex is an independent code reviewer and nothing more, unless Ghulam Qadir Mallah explicitly changes that rule.
 
 ## Who does what
 
-| Name | Role |
+| Team member | Responsibility and first deliverable |
 |---|---|
-| Ghulam Mallah | Project Owner, Founder, CTO and Enterprise Architect. Final authority. He decides merges and production changes. |
-| Abdul Rehman Mallah | Head of AI and Automation, AI Architect. Owns AI and automation architecture, models, engineering direction and AI quality. |
-| Mia Brooks (AI: ChatGPT) | Product and Solution Architect. Owns product architecture, solution design, UX direction, requirements and architecture review. |
-| Lily Carter (AI: Claude) | Lead Developer. Writes code, builds releases and answers review findings. |
-| Hannah Jones (AI: Claude) | QA, SEO and Security Test Lead. Performs independent functional, security, SEO, accessibility and device testing. |
-| Sophie Reed (AI: Codex) | Senior Code Reviewer. Reviews significant changes at their exact commit SHA and leaves findings only. |
+| **Ghulam Qadir Mallah - Owner, Founder, and Enterprise Architect** | Final authority for product, technology, architecture, and live changes. Agree launch scope, budget, architecture, and release decisions. |
+| **Ghulam Shabir Mallah - Visionary Architect** | Define the long-term alumni mission, university relationships, chapter model, and community value. |
+| **Sarmad Qadir Mallah - Head of Infrastructure and Cloud Technologies** | Propose hosting, domain/email configuration, environments, access management, backups, monitoring, recovery, and operating costs. |
+| **Abdul Rehman Mallah - Head of AI and Automation, AI Architect** | Set AI and automation architecture, engineering direction, quality standards, and evaluation. Begin with practical administrative automation. |
+| **Mia Brooks - Product and Solution Architect** | Own member journeys, requirements, URL conventions, SEO/analytics architecture, measurement, priorities, and review strategy. |
+| **Lily Carter - Lead Developer** | Inventory existing implementation and document gaps. After direction is agreed, prepare changes in separate branches and pull requests. |
+| **Sophie Reed - Senior Code Reviewer / Software Engineer** | Independently review implementation, permissions, technical SEO, schema, canonical and robots behaviour, analytics safety, and performance. **Reviewer-only.** |
+| **Hannah Jones - QA, SEO and Security Test Lead** | Independently validate signed-out, member, administrator, and mobile behaviour; test privacy, verification, events, accessibility, and Search Console/Analytics evidence. Validate purchase uniqueness if payments are introduced. |
 
 ## What Codex must not do
 
@@ -115,7 +117,7 @@ If findings remain, finish with:
 
 **Review not clear**
 
-Lily answers implementation findings. Mia resolves architecture or requirement interpretation. Ghulam decides disagreements and gives final approval.
+Lily answers implementation findings. Mia resolves architecture or requirement interpretation. Ghulam Qadir decides disagreements and gives final approval.
 
 ## Writing rule
 
