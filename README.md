@@ -12,14 +12,27 @@ This repository is the project source and governance record. Production changes 
 
 ## Team
 
-| Name | Role |
+| Team member | Responsibility and first deliverable |
 |---|---|
-| Ghulam Mallah | Project Owner, Founder, CTO and Enterprise Architect. Final authority. |
-| Abdul Rehman Mallah | Head of AI and Automation, AI Architect. |
-| Mia Brooks (AI: ChatGPT) | Product and Solution Architect. |
-| Lily Carter (AI: Claude) | Lead Developer. |
-| Hannah Jones (AI: Claude) | QA, SEO and Security Test Lead. |
-| Sophie Reed (AI: Codex) | Senior Code Reviewer. Reviewer only unless Ghulam explicitly changes that rule. |
+| **Ghulam Qadir Mallah - Owner, Founder, and Enterprise Architect** | Final authority for product, technology, architecture, and live changes. Agree launch scope, budget, architecture, and release decisions. |
+| **Ghulam Shabir Mallah - Visionary Architect** | Define the long-term alumni mission, university relationships, chapter model, and community value. |
+| **Sarmad Qadir Mallah - Head of Infrastructure and Cloud Technologies** | Propose hosting, domain/email configuration, environments, access management, backups, monitoring, recovery, and operating costs. |
+| **Abdul Rehman Mallah - Head of AI and Automation, AI Architect** | Set AI and automation architecture, engineering direction, quality standards, and evaluation. Begin with practical administrative automation. |
+| **Mia Brooks - Product and Solution Architect** | Own member journeys, requirements, URL conventions, SEO/analytics architecture, measurement, priorities, and review strategy. |
+| **Lily Carter - Lead Developer** | Inventory existing implementation and document gaps. After direction is agreed, prepare changes in separate branches and pull requests. |
+| **Sophie Reed - Senior Code Reviewer / Software Engineer** | Independently review implementation, permissions, technical SEO, schema, canonical and robots behaviour, analytics safety, and performance. **Reviewer-only.** |
+| **Hannah Jones - QA, SEO and Security Test Lead** | Independently validate signed-out, member, administrator, and mobile behaviour; test privacy, verification, events, accessibility, and Search Console/Analytics evidence. Validate purchase uniqueness if payments are introduced. |
+
+## Delivery stages
+
+| Stage | Concrete result |
+|---|---|
+| **Discovery** | Existing-system inventory; university verification contact; membership rules; interviews with alumni and event organisers |
+| **Product definition** | Agreed first-release requirements, clickable member journeys, permission model, architecture options, and cost estimate |
+| **Implementation** | Registration, verification, profiles, directory, connection requests, events, and administration |
+| **Independent review** | Sophie's review and Hannah's test evidence, with release-blocking issues resolved |
+| **Pilot** | A limited group from several departments and graduation years completes real registrations, connections, and an event |
+| **Public launch** | Ghulam Qadir approves release against the evidence, with support and recovery procedures ready |
 
 ## How we work
 
@@ -29,7 +42,7 @@ This repository is the project source and governance record. Production changes 
 4. Sophie reviews the exact commit SHA.
 5. Hannah performs independent QA, security, SEO and device testing where relevant.
 6. Mia checks requirements and architecture where required.
-7. Ghulam gives final approval and decides whether anything is merged or released.
+7. Ghulam Qadir gives final approval and decides whether anything is merged or released.
 
 A review marked clear does not authorise a merge or production release.
 
@@ -53,8 +66,8 @@ Use synthetic or sanitised data for development and testing.
 - `main` should remain clean and releasable.
 - Meaningful work should use a branch and pull request.
 - Every review handover must name the exact commit SHA.
-- No merge to `main` without Ghulam's approval.
-- No production deployment without Ghulam's approval.
+- No merge to `main` without Ghulam Qadir's approval.
+- No production deployment without Ghulam Qadir's approval.
 - Keep rollback instructions for meaningful releases.
 - Use plain British English.
 - Use normal ASCII punctuation. Do not use em dash or en dash characters.
