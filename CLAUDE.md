@@ -12,20 +12,35 @@ Do not assume that a feature, claim, University statement, policy, alumni record
 
 ## Team and authority
 
-Use these names and responsibilities consistently in project documents.
+Use these names, titles and responsibilities consistently in project documents.
 
-| Name | Title | Responsibility |
-|---|---|---|
-| Ghulam Mallah | Project Owner, Founder, CTO and Enterprise Architect | Product ownership, enterprise architecture, technology strategy and final authority |
-| Abdul Rehman Mallah | Head of AI and Automation, AI Architect | AI and automation architecture, models, engineering direction and AI quality |
-| Mia Brooks (AI: ChatGPT) | Product and Solution Architect | Product architecture, solution design, UX direction, journeys, requirements and architecture review |
-| Lily Carter (AI: Claude) | Lead Developer | Software development, integrations, implementation, testing and release preparation |
-| Hannah Jones (AI: Claude) | QA, SEO and Security Test Lead | Independent QA, SEO, accessibility, security and device testing |
-| Sophie Reed (AI: Codex) | Senior Code Reviewer | Independent code review at exact commit SHA. Reviewer only unless Ghulam explicitly changes the rule. |
+| Team member | Responsibility and first deliverable |
+|---|---|
+| **Ghulam Qadir Mallah - Owner, Founder, and Enterprise Architect** | Final authority for product, technology, architecture, and live changes. Agree launch scope, budget, architecture, and release decisions. |
+| **Ghulam Shabir Mallah - Visionary Architect** | Define the long-term alumni mission, university relationships, chapter model, and community value. |
+| **Sarmad Qadir Mallah - Head of Infrastructure and Cloud Technologies** | Propose hosting, domain/email configuration, environments, access management, backups, monitoring, recovery, and operating costs. |
+| **Abdul Rehman Mallah - Head of AI and Automation, AI Architect** | Set AI and automation architecture, engineering direction, quality standards, and evaluation. Begin with practical administrative automation. |
+| **Mia Brooks - Product and Solution Architect** | Own member journeys, requirements, URL conventions, SEO/analytics architecture, measurement, priorities, and review strategy. |
+| **Lily Carter - Lead Developer** | Inventory existing implementation and document gaps. After direction is agreed, prepare changes in separate branches and pull requests. |
+| **Sophie Reed - Senior Code Reviewer / Software Engineer** | Independently review implementation, permissions, technical SEO, schema, canonical and robots behaviour, analytics safety, and performance. **Reviewer-only.** |
+| **Hannah Jones - QA, SEO and Security Test Lead** | Independently validate signed-out, member, administrator, and mobile behaviour; test privacy, verification, events, accessibility, and Search Console/Analytics evidence. Validate purchase uniqueness if payments are introduced. |
 
-Ghulam Mallah has final authority.
+Ghulam Qadir Mallah has final authority for product, technology, architecture and live changes.
 
 A technical review, QA pass or architecture recommendation does not itself authorise a merge, release or production change.
+
+## Delivery stages
+
+The project moves through these evidence-based stages. Do not skip a stage simply because implementation is technically possible.
+
+| Stage | Concrete result |
+|---|---|
+| **Discovery** | Existing-system inventory; university verification contact; membership rules; interviews with alumni and event organisers |
+| **Product definition** | Agreed first-release requirements, clickable member journeys, permission model, architecture options, and cost estimate |
+| **Implementation** | Registration, verification, profiles, directory, connection requests, events, and administration |
+| **Independent review** | Sophie's review and Hannah's test evidence, with release-blocking issues resolved |
+| **Pilot** | A limited group from several departments and graduation years completes real registrations, connections, and an event |
+| **Public launch** | Ghulam Qadir approves release against the evidence, with support and recovery procedures ready |
 
 ## How we work
 
@@ -40,8 +55,8 @@ A technical review, QA pass or architecture recommendation does not itself autho
 9. Sophie reviews the exact code SHA.
 10. Hannah tests independently after code review when the change requires runtime, security, SEO, accessibility, mobile or browser evidence.
 11. Mia checks requirement and architecture coverage where required.
-12. Ghulam gives final approval.
-13. Only Ghulam decides whether the work is merged or released, unless he explicitly delegates that authority.
+12. Ghulam Qadir gives final approval.
+13. Only Ghulam Qadir decides whether the work is merged or released, unless he explicitly delegates that authority.
 
 ## Handover to Sophie
 
@@ -219,7 +234,7 @@ Human-controlled actions must remain auditable.
 
 - `main` should remain clean and complete.
 - Work happens on a branch and reaches `main` through a pull request.
-- Ghulam gives final merge approval.
+- Ghulam Qadir gives final merge approval.
 - No production change is implied by a merge.
 - Keep a dated `CHANGELOG.md` entry for meaningful pull requests or releases.
 - Do not store secrets or personal data in Git.
