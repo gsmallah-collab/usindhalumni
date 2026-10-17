@@ -18,3 +18,11 @@
 - Confirmed Sophie Reed as Senior Code Reviewer / Software Engineer and reviewer-only.
 - Added the six delivery stages: Discovery, Product definition, Implementation, Independent review, Pilot and Public launch.
 - Set Ghulam Qadir Mallah as final approval authority for public launch.
+
+
+## 17/10/2026 - University-specific team responsibilities
+
+- Rewrote every team responsibility and first deliverable to match the University of Sindh Alumni project.
+- Replaced generic or commerce-style wording with alumni-specific language.
+- Defined first deliverables for university relationships, infrastructure, AI and automation, product definition, implementation review, independent code review, and QA.
+- Replaced purchase-focused QA wording with membership fees, donations, and paid-event payment testing only if those features are introduced.
